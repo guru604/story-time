@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(fusion-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top: 1px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    width: 100%;
+
+    backdrop-filter: blur(500px);
+    padding: 8px;
+    border-bottom: #171717 solid 0px;
+    box-shadow: #171717 1px 1px 10px 0px;
+}
+.con{
+    height: 500px;
+    width: 400px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block ;
+
+    backdrop-filter: blur(200px);
+    padding: 8px;
+    border-bottom: #000000 solid 0px;
+    box-shadow: #000000 1px 1px 10px 0px;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    color: rgb(9, 242, 242);
+}
+h3{
+   margin-left: 320px;
+}
+/* 
+con style end
+ */
+ #btn{
+    height: 80px;
+    width: 80px;
+    border: none;
+    color: white;
+    font-size: 3em;
+    background-color: darkcyan;
+    border-radius: 50px;
+    position: fixed;
+    top: 600px;
+    transition: all 1ms ease-in-out;
+ }
+ #btn:hover{
+    color: black;
+    background-color: white;
+ }
+ #btn:active{
+    color: white;
+    background-color: red;
+
+ }
+ footer{
+    display: flex;
+    margin: 20px;
+    justify-content: end;
+ }
+ /* 
+ showbox
+  */
+  #showbox{
+    margin-top: 160px;
+    margin-left: 450px;
+    height: 350px;
+    display: none;
+    border-radius: 10px;
+    width: 600px;
+    background-color: hotpink;
+  }
+  .item >h1{
+    border-radius: 10px;
+    color: white;
+    letter-spacing: normal;
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input{
+    height: 35px;
+    width: 500px;   
+    margin-top: 20px;
+    border: none;
+    background-color: hotpink;
+    border-bottom: 3px solid black;
+  }
+  textarea{
+    margin-top: 40px;
+    height: 70px;
+    width: 500px;
+    border: solid black 3px;
+    background-color: hotpink;
+  }
+  #addbtn{
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: #000000;
+  }
+  #cancelbtn{
+    margin-left: 20px;
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: #000000;
+    
+  }
+  input::-webkit-input-placeholder{
+    color: red;
+    font-size: 20px;
+  }
+  textarea::-webkit-input-placeholder{
+    color: red;
+    font-size: 20px;
+  }
+  p{
+    margin-top: 2px;
+    word-spacing: 4px;
+  }
+  .rebtn{
+    margin-top: 30px;
+    padding: 5px 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 10ms ease-in-out;
+    
+  }
+  .rebtn:hover{
+    background-color: red;
+  }
